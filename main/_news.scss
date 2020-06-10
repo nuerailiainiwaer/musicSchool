@@ -54,3 +54,21 @@
 .toutiao{
     font-weight: bold;
 }
+
+.toutiao{
+    display: flex;
+    flex-direction: row;
+    
+    &:after{
+        content: "";
+        flex: 1 1;
+        border-top: 1px solid black;
+        margin: auto;
+
+    }
+   
+    &:after{
+        margin-left: 15px
+
+    }
+}

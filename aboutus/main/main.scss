@@ -1,0 +1,17 @@
+.navbar{
+
+    .nav-item{
+        &:hover #nameme{
+            transform: scale(1.05);
+        }
+     }
+
+    .nav-link{
+        font-size: 1.2rem;
+        margin: .2rem;
+    }
+    #nameme{
+        color: blue;
+        transition: transform .5s;
+    }
+}
