@@ -69,6 +69,78 @@
             </div>
         </div>
     </nav>
+    <section style="height: 459px;">
+        <img style="width: 100%; height: 100%;" src="./img/mainpi.jpg" alt="Girl in a jacket">
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-2">
+                <div style="width: 100%" class="d-flex flex-column text-dark text-center mt-2">
+                    <div onclick="renBtn()" id="renBtn" class="port-item p-4 d-flex justify-content-between">
+
+                        <span id="textA" class="d-none d-sm-block">学校创始人</span>
+                        <div class="">
+                            <i class="fas fa-chevron-right"></i>
+
+                        </div>
+
+                    </div>
+
+                    <div onclick="jianBtn()" id="jianBtn" class="port-item p-4 d-flex justify-content-between "">
+
+                        <span id=" textB" class=" d-none d-sm-block">学校简介</span>
+                        <div class="">
+                            <i class="fas fa-chevron-right"></i>
+
+                        </div>
+                    </div>
+
+                    <div onclick="rongyuBtn()" id="rongyuBtn" class="port-item p-4 d-flex justify-content-between "">
+
+                        <span id=" textC" class=" d-none d-sm-block">学校荣誉</span>
+                        <div class="">
+                            <i class="fas fa-chevron-right"></i>
+
+                        </div>
+                    </div>
+
+                    <div onclick="rencaiBtn()" id="rencaiBtn" class="port-item p-4 d-flex justify-content-between "">
+
+                        <span  id=" textD" class=" d-none d-sm-block">人才招聘</span>
+                        <div class="">
+                            <i class="fas fa-chevron-right"></i>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-10">
+
+                <div id="renPage" class="showpage show bg-primary">
+
+                </div>
+
+                <div style="display: none;" id="jianPage" class="showpage bg-secondary">
+                </div>
+
+                <div style="display: none;" id="rongyuPage" class="showpage bg-warning">
+                </div>
+
+                <div style="display: none;" id="rencaiPage" class="showpage bg-info">
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+    </section>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -79,6 +151,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <script src="js.js"></script>
 
 </body>
 

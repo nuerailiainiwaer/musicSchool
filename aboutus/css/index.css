@@ -8,3 +8,16 @@
 .navbar #nameme {
   color: blue;
   transition: transform .5s; }
+
+.port-item {
+  border-bottom: 1px solid #999999;
+  font-family: tahoma, arial, "Microsoft YaHei", "Hiragino Sans GB", u5b8bu4f53, sans-serif; }
+
+.showpage {
+  height: 800px;
+  width: 100%; }
+
+#renBtn {
+  background-color: #007BFF; }
+  #renBtn #textA {
+    color: white; }
