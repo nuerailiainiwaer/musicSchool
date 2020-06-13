@@ -1,0 +1,54 @@
+.navbar .nav-item:hover #nameme {
+  transform: scale(1.05); }
+
+.navbar .nav-link {
+  font-size: 1.2rem;
+  margin: .2rem; }
+
+.navbar #nameme {
+  color: blue;
+  transition: transform .5s; }
+
+.meto {
+  display: flex;
+  flex-direction: row; }
+  .meto:before, .meto:after {
+    content: "";
+    flex: 1 1;
+    border-top: 4px dotted blue;
+    margin: auto; }
+  .meto:before {
+    margin-right: 15px; }
+  .meto:after {
+    margin-left: 15px; }
+
+.kecheng {
+  filter: drop-shadow(0.75em 0.75em 1em);
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right, #2a20ab, #5a4ef5);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: .2rem;
+  transition: all .2s; }
+  .kecheng:hover {
+    transform: scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba(10, 10, 10, 0.2); }
+
+.videoImg {
+  background-image: url("../img/shipin.jpg");
+  /* The image used */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */ }
+
+.iconme {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
