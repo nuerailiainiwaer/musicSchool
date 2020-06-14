@@ -52,3 +52,18 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%); }
+
+.yinpin {
+  background-color: #F6F9FE;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.a_hover {
+  display: inline-block;
+  align-self: center;
+  cursor: pointer; }
+
+.a_hover:hover {
+  text-decoration: underline;
+  color: red; }
