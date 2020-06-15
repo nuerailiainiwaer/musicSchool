@@ -1,3 +1,7 @@
+
+body{
+    box-sizing: border-box;
+}
 .navbar{
 
     .nav-item{
@@ -32,6 +36,17 @@
         #textA{
             color: white;
         }
+    }
+
+    .fontsieze{
+        font-family: 'Noto Sans SC', sans-serif;
+    }
+
+    .xuexiaojieshao{
+        color: #666;
+        line-height: 2;
+
+
     }
 
    

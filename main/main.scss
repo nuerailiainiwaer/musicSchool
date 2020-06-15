@@ -9,6 +9,7 @@ $color-black:#0a0a0a;
 
     .nav-item{
         &:hover #nameme{
+			color:#FF4081; ;
             transform: scale(1.05);
         }
      }
@@ -18,7 +19,8 @@ $color-black:#0a0a0a;
         margin: .2rem;
     }
     #nameme{
-        color: blue;
+		color: #666;
+		font-weight: bold;
         transition: transform .5s;
     }
 }
@@ -50,16 +52,17 @@ $color-black:#0a0a0a;
     
 }
 .kecheng {
+	font-family: 'ZCOOL QingKe HuangYou', cursive !important;
 
-    filter: drop-shadow(.75em .75em 1em);
+   
     font-size: 3.5rem;
-    text-transform: uppercase;
+   
     font-weight: 700;
-    display: inline-block;
-    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
-    -webkit-background-clip: text;
-    color: transparent;
-    letter-spacing: .2rem;
+	display: inline-block;
+	color: #666;
+    
+   
+    letter-spacing: 1rem;
     transition: all .2s;
 
 
@@ -132,50 +135,6 @@ $color-black:#0a0a0a;
 }
 
 
-.meto{
-    display: flex;
-    flex-direction: row;
-    &:before,
-    &:after{
-        content: "";
-        flex: 1 1;
-        border-top: 4px dotted blue;
-        margin: auto;
-
-    }
-    &:before{
-        margin-right: 15px
-
-
-    }
-    &:after{
-        margin-left: 15px
-
-    }
-}
-
-// .newsline{
-//     display: flex;
-//     flex-direction: column;
-//     &:before,
-//     &:after{
-//         content: "";
-//         flex: 1 1;
-//         border-top: 4px dotted blue;
-//         margin: auto;
-
-//     }
-//     &:before{
-//         margin-right: 15px
-
-
-//     }
-//     &:after{
-//         margin-left: 15px
-
-//     }
-// }
-
 
 $primary: #3F51B5;
 $dark-primary: #303F9F;
@@ -194,7 +153,27 @@ section {
 
 .timeline-item {
 	width: 100%;
+	
 	margin-bottom: 70px;
+	
+
+	h3{
+		
+		font-size: 18px;
+		margin-bottom: 1rem;
+		box-shadow: 0 20px 25px -15px rgba(0, 0, 0, .3);
+		text-align: left;
+
+
+		a{
+			text-decoration: none;
+			color: black;
+			font-weight: bold;
+
+
+
+		}
+	}
 
 	&:nth-child(even) {
 
@@ -231,11 +210,12 @@ section {
 
 .timeline-content {
 	position: relative;
+	height: 265px;
 	width: 100%;
 	padding: 10px 30px;
 	border-radius: 4px;
 	background: #f5f5f5;
-	box-shadow: 0 20px 25px -15px rgba(0, 0, 0, .3);
+	
 
 	&::after {
 		content: '';
@@ -384,5 +364,28 @@ blockquote {
 
 .heyan{
 	font-family: 'ZCOOL QingKe HuangYou', cursive !important;
+}
+
+.media-body{
+	h5:hover{
+		color:#FF4081 ;
+	}
+
+	h5 {
+		cursor: pointer;
+		font-weight: bold;
+	}
+}
+
+.hot_news{
+	cursor: pointer;
+		font-weight: bold;
+
+	&:hover{
+		color:#FF4081 ;
+
+	}
+	
+
 }
 
