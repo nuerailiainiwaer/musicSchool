@@ -136,3 +136,41 @@ h1 {
   font-size: 1rem;
   margin: .5rem 0 0;
 }
+
+.imgPic{
+  width: 100%;
+  height: 400px;
+}
+
+///ming ren arrow function
+.mingyanGlider{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  background-color: #333;
+ 
+
+}
+
+.glide__slide{
+  filter:blur(6px);
+  opacity: .7;
+  transition: .3s linear;
+
+}
+
+.glide__slide--active{
+  opacity: 1;
+  filter: none;
+  transform: scale(1.1);
+
+}
+.glide__slides{
+  overflow: visible;
+
+
+}
+

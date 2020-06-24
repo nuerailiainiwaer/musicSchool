@@ -90,6 +90,32 @@ h1 {
   font-size: 1rem;
   margin: .5rem 0 0; }
 
+.imgPic {
+  width: 100%;
+  height: 400px; }
+
+.mingyanGlider {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  background-color: #333; }
+
+.glide__slide {
+  filter: blur(6px);
+  opacity: .7;
+  transition: .3s linear; }
+
+.glide__slide--active {
+  opacity: 1;
+  filter: none;
+  transform: scale(1.1); }
+
+.glide__slides {
+  overflow: visible; }
+
 .verticalline {
   position: relative; }
 
@@ -142,6 +168,14 @@ h1 {
   .toutiao:after {
     margin-left: 15px; }
 
+.titleme {
+  font-size: 38px;
+  line-height: 48px;
+  color: #666;
+  text-align: center;
+  padding: 0 0 20px 0;
+  font-weight: bold; }
+
 .navbar .nav-item:hover #nameme {
   color: #FF4081;
   transform: scale(1.05); }
@@ -184,18 +218,6 @@ h1 {
   /* Do not repeat the image */
   background-size: cover;
   /* Resize the background image to cover the entire container */ }
-
-.kecheng {
-  font-family: 'ZCOOL QingKe HuangYou', cursive !important;
-  font-size: 3.5rem;
-  font-weight: 700;
-  display: inline-block;
-  color: #666;
-  letter-spacing: 1rem;
-  transition: all .2s; }
-  .kecheng:hover {
-    transform: scale(1.1);
-    text-shadow: 0.5rem 1rem 2rem rgba(10, 10, 10, 0.2); }
 
 .post {
   width: 285px;
@@ -367,9 +389,6 @@ blockquote {
     left: -15px;
     border-width: 10px 15px 10px 0;
     border-color: transparent #f5f5f5 transparent transparent; } }
-
-.heyan {
-  font-family: 'ZCOOL QingKe HuangYou', cursive !important; }
 
 .media-body h5:hover {
   color: #FF4081; }

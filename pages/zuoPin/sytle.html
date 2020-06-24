@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>首页</title>
+    <title>原创作品</title>
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;900&family=ZCOOL+QingKe+HuangYou&display=swap"
         rel="stylesheet">
@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <div style="height: 1.5rem;position: relative;" class="p-3">
+    <div style="height: 1.5rem;position: relative;" class="p-3 contactinfo">
         <div class="row">
             <div class="col-6 text-center">
                 欢迎访问Aq艺术学校官方网站
@@ -52,22 +52,20 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item border-right border-left">
-                        <a id="nameme" href="#home-section" class=" nav-link">首页</a>
+                        <a id="nameme" href="../../home.html" class=" nav-link">首页</a>
                     </li>
                     <li class="nav-item  border-right">
-                        <a id="nameme" href="#explore-head-seaction" class="nav-link">关于我们</a>
+                        <a id="nameme" href="../aboutus/aboutus.html" class="nav-link">关于我们</a>
+                    </li>
+
+                    <li class="nav-item  border-right ">
+                        <a id="nameme" href="../kecheng/index.html" class="nav-link">我们的课程</a>
                     </li>
                     <li class="nav-item  border-right ">
-                        <a id="nameme" href="#share-head-seaction" class="nav-link">名人贺词</a>
+                        <a id="nameme" href="../zuoPin/sytle.html" class="nav-link">原创作品</a>
                     </li>
                     <li class="nav-item  border-right ">
-                        <a id="nameme" href="#create-head-seaction" class="nav-link">我们的课程</a>
-                    </li>
-                    <li class="nav-item  border-right ">
-                        <a id="nameme" href="#share-head-seaction" class="nav-link">原创作品</a>
-                    </li>
-                    <li class="nav-item  border-right ">
-                        <a id="nameme" href="#share-head-seaction" class="nav-link">联系我们</a>
+                        <a id="nameme" href="../contactUS/index.html" class="nav-link">联系我们</a>
                     </li>
                 </ul>
             </div>
@@ -77,57 +75,95 @@
         <img style="width: 100%; height: 100%;" src="./img/page.png" alt="Girl in a jacket">
     </section>
     <!-- show cases sliders -->
-    <div style="max-width: 1300px !important;" class="ontainer m-auto">
-        <div class="meto"><span class="kecheng">视频专区</span></div>
+    <div style="max-width: 1300px !important;" class="container m-auto">
+
+        <h4 class="titleme m-3">视频专区</h4>
         <div class="row">
-            <div style="width: 100%;height: 21rem;" class="shipin col-4  p-3">
-                <div style="width: 100%; height: 280px; position: relative;" class="">
-                    <img class=" videoImg" style="position: absolute; width: 100%; height: 100%; top: 0;left: 0;">
-                    <i style="height: 50px; width: 50px;" class="iconme fas fa-play-circle"></i>
-                    <div class="text"></div>
+            <div style="width: 100%;height: 23rem;" class="shipin col-md-4  p-3">
+                <div style="width: 100%; height: 290px; position: relative;" class="">
+                    <img class="videoImg" src="./img/shipin.jpg"
+                        style="position: absolute; width: 100%; height: 100%; top: 0;left: 0;">
+                    <i style="height: 50px; width: 50px;font-size: 3rem;" class="iconme fas fa-play-circle"></i>
+
                 </div>
+                <div class="text text-center  mt-2 font-weight-bold">该死的温柔</div>
             </div>
-            <div style="width: 100%;height: 21rem;" class="shipin col-4  p-3">
-                <div style="width: 100%; height: 280px; position: relative;" class="">
-                    <img class=" videoImg" style="position: absolute; width: 100%; height: 100%; top: 0;left: 0;">
-                    <div class="text"></div>
+            <div style="width: 100%;height: 23rem;" class="shipin col-md-4  p-3">
+                <div style="width: 100%; height: 290px; position: relative;" class="">
+                    <img class="videoImg" src="./img/shipin.jpg"
+                        style="position: absolute; width: 100%; height: 100%; top: 0;left: 0;">
+                    <i style="height: 50px; width: 50px;font-size: 3rem;" class="iconme fas fa-play-circle"></i>
+
                 </div>
+                <div class="text text-center  mt-2 font-weight-bold">该死的温柔</div>
             </div>
-            <div style="width: 100%;height: 21rem;" class="shipin col-4  p-3">
-                <div style="width: 100%; height: 280px; position: relative;" class="">
-                    <img class=" videoImg" style="position: absolute; width: 100%; height: 100%; top: 0;left: 0;">
-                    <div class="text"></div>
+            <div style="width: 100%;height: 23rem;" class="shipin col-md-4  p-3">
+                <div style="width: 100%; height: 290px; position: relative;" class="">
+                    <img class="videoImg" src="./img/shipin.jpg"
+                        style="position: absolute; width: 100%; height: 100%; top: 0;left: 0;">
+                    <i style="height: 50px; width: 50px;font-size: 3rem;" class="iconme fas fa-play-circle"></i>
+
                 </div>
+                <div class="text text-center mt-2 font-weight-bold">该死的温柔</div>
             </div>
         </div>
 
-        <div class="meto"><span class="kecheng">音频专区</span></div>
 
-        <div style="display: flex;flex-wrap: wrap; align-content: flex-start;" class="">
+        <h4 class="titleme m-3">音频专区</h4>
+
+        <div style="display: flex;flex-wrap: wrap; align-content: flex-start;" class="mb-3">
             <div style="flex: 0 0 25%;;height: 3rem;" class="yinpin">
-                <div class="a_hover">抖一抖 - 骆驼强子</div>
+                <a href="./nahxilar/aixinzhihuaduoduokai_zhang/index.html" class="a_hover">爱心之花朵朵开-张昕语</a>
 
             </div>
             <div style="flex: 0 0 25%;height: 3rem;" class="yinpin">
-                <div class="a_hover">抖一抖 - 骆驼强子</div>
+                <a href="./nahxilar/aixinzhihuakai_gao/index.html" class="a_hover">爱心之花朵朵开-高梓宁</a>
             </div>
             <div style="flex: 0 0 25%; height: 3rem;" class="yinpin">
-                <div class="a_hover">抖一抖 - 骆驼强子</div>
+                <a href="./nahxilar/aixinzhihuakai_gVSz/index.html" class="a_hover">爱心之花朵朵开-高梓宁vs张昕语</a>
             </div>
             <div style="flex: 0 0 25%; height: 3rem;" class="yinpin">
-                <div class="a_hover">抖一抖 - 骆驼强子</div>
+                <a href="./nahxilar/borenyuangegao_gao/index.html" class="a_hover">博仁院歌高梓宁-高梓宁</a>
             </div>
             <div style="flex: 0 0 25%; height: 3rem;" class="yinpin">
-                <div class="a_hover">抖一抖 - 骆驼强子</div>
+                <a href="./nahxilar/feibawodege/index.html" class="a_hover">飞吧我的歌-寇先杰</a>
             </div>
             <div style="flex: 0 0 25%; height: 3rem;" class="yinpin">
-                <div class="a_hover">抖一抖 - 骆驼强子</div>
+                <a href="./nahxilar/huakaizaixinshang/index.html" class="a_hover">紫荆花开在我心上-尹潇vs王丽丽</a>
             </div>
             <div style="flex: 0 0 25%; height: 3rem;" class="yinpin">
-                <div class="a_hover">抖一抖 - 骆驼强子</div>
+                <a href="./nahxilar/mengzaitongnian/index.html" class="a_hover">梦在童年-马一鸣vs奚子懿</a>
             </div>
             <div style="flex: 0 0 25%; height: 3rem;" class="yinpin">
-                <div class="a_hover">抖一抖 - 骆驼强子</div>
+                <a href="./nahxilar/shannianyoudandang_leisiqi/index.html" class="a_hover">少年有担当-尹潇VS雷斯淇</a>
+            </div>
+
+            <div style="flex: 0 0 25%; height: 3rem;" class="yinpin">
+                <a href="./nahxilar/wogeimamadadianhua/index.html" class="a_hover">我给妈妈打个电话-姜丽丽</a>
+            </div>
+
+            <div style="flex: 0 0 25%; height: 3rem;" class="yinpin">
+                <a href="./nahxilar/wohewumiaoyiqifei/index.html" class="a_hover">我和鸣笛一起飞-鸣笛艺校</a>
+            </div>
+            <div style="flex: 0 0 25%; height: 3rem;" class="yinpin">
+                <a href="./nahxilar/wohezuguo/index.html" class="a_hover">我和祖国一起强大-高梓宁</a>
+            </div>
+            <div style="flex: 0 0 25%; height: 3rem;" class="yinpin">
+                <a href="./nahxilar/women_wangqile/index.html" class="a_hover">我们-郑思岐vs王淇铄</a>
+            </div>
+
+            <div style="flex: 0 0 25%; height: 3rem;" class="yinpin">
+                <a href="./nahxilar/xinxinniannian/index.html" class="a_hover">心心念念一朵莲-姜丽丽</a>
+            </div>
+
+            <div style="flex: 0 0 25%; height: 3rem;" class="yinpin">
+                <a href="./nahxilar/zhongguojingshen/index.html" class="a_hover">中国精神最豪迈邬尚峰-姜丽丽</a>
+            </div>
+            <div style="flex: 0 0 25%; height: 3rem;" class="yinpin">
+
+            </div>
+            <div style="flex: 0 0 25%; height: 3rem;" class="yinpin">
+
             </div>
 
 

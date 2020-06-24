@@ -2,21 +2,32 @@ $color-primary-light:#2a20ab;
 $color-primary-dark:#5a4ef5;
 $color-black:#0a0a0a;
 
+body{
+    overflow-x: hidden !important;
+}
+
+.a_hover{
+    text-decoration: none;
+}
+
 .navbar{
 
     .nav-item{
         &:hover #nameme{
+			color:#FF4081; ;
             transform: scale(1.05);
+
+            
         }
      }
 
     .nav-link{
         font-size: 1.2rem;
         margin: .2rem;
-
     }
     #nameme{
-        color: blue;
+		color: #666;
+		font-weight: bold;
         transition: transform .5s;
     }
 }
@@ -42,41 +53,21 @@ $color-black:#0a0a0a;
     }
 }
 
-.kecheng {
 
-    filter: drop-shadow(.75em .75em 1em);
-    font-size: 3.5rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    display: inline-block;
-    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
-    -webkit-background-clip: text;
-    color: transparent;
-    letter-spacing: .2rem;
-    transition: all .2s;
-    &:hover {
-        transform:  scale(1.1);
 
-        text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
-    }
+.shipin{
+    cursor: pointer;
 }
 
 .videoImg{
-    background-image: url("../img/shipin.jpg"); /* The image used */
-
- 
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-
+    border: 1px solid #666;
+    transition: transform .2s;
 }
 .iconme{
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
-
-    
+    transform: translate(-50%,-50%);   
 }
 .yinpin{
     background-color: #F6F9FE;
@@ -96,6 +87,44 @@ $color-black:#0a0a0a;
     text-decoration: underline;
     color: red;
     
-  }
+}
+.titleme{
+    font-size: 38px;
+    line-height: 48px;
+    color: #666;
+    text-align: center;
+    padding: 0 0 20px 0;
+    font-weight: bold;
+}
+.shipin:hover .videoImg{
+    transform: scale(1.02);
+    filter: blur(2px);
+}
+.shipin:hover .iconme{
+    // transform: scale(1.02);
+}
 
+@media (max-width: 1199px) {
+    .yinpin{
+        flex: 0 0 33.333% !important;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .yinpin{
+        flex: 0 0 50% !important;
+    }
+    .contactinfo{
+        display: none;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .yinpin{
+        flex: 0 0 100% !important;
+    }
+
+}
 

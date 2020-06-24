@@ -1,4 +1,11 @@
+body {
+  overflow-x: hidden !important; }
+
+.a_hover {
+  text-decoration: none; }
+
 .navbar .nav-item:hover #nameme {
+  color: #FF4081;
   transform: scale(1.05); }
 
 .navbar .nav-link {
@@ -6,7 +13,8 @@
   margin: .2rem; }
 
 .navbar #nameme {
-  color: blue;
+  color: #666;
+  font-weight: bold;
   transition: transform .5s; }
 
 .meto {
@@ -22,30 +30,12 @@
   .meto:after {
     margin-left: 15px; }
 
-.kecheng {
-  filter: drop-shadow(0.75em 0.75em 1em);
-  font-size: 3.5rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  display: inline-block;
-  background-image: linear-gradient(to right, #2a20ab, #5a4ef5);
-  -webkit-background-clip: text;
-  color: transparent;
-  letter-spacing: .2rem;
-  transition: all .2s; }
-  .kecheng:hover {
-    transform: scale(1.1);
-    text-shadow: 0.5rem 1rem 2rem rgba(10, 10, 10, 0.2); }
+.shipin {
+  cursor: pointer; }
 
 .videoImg {
-  background-image: url("../img/shipin.jpg");
-  /* The image used */
-  background-position: center;
-  /* Center the image */
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  /* Resize the background image to cover the entire container */ }
+  border: 1px solid #666;
+  transition: transform .2s; }
 
 .iconme {
   position: absolute;
@@ -67,3 +57,29 @@
 .a_hover:hover {
   text-decoration: underline;
   color: red; }
+
+.titleme {
+  font-size: 38px;
+  line-height: 48px;
+  color: #666;
+  text-align: center;
+  padding: 0 0 20px 0;
+  font-weight: bold; }
+
+.shipin:hover .videoImg {
+  transform: scale(1.02);
+  filter: blur(2px); }
+
+@media (max-width: 1199px) {
+  .yinpin {
+    flex: 0 0 33.333% !important; } }
+
+@media (max-width: 700px) {
+  .yinpin {
+    flex: 0 0 50% !important; }
+  .contactinfo {
+    display: none; } }
+
+@media (max-width: 400px) {
+  .yinpin {
+    flex: 0 0 100% !important; } }

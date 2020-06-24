@@ -2,6 +2,7 @@ body {
   box-sizing: border-box; }
 
 .navbar .nav-item:hover #nameme {
+  color: #FF4081;
   transform: scale(1.05); }
 
 .navbar .nav-link {
@@ -9,7 +10,8 @@ body {
   margin: .2rem; }
 
 .navbar #nameme {
-  color: blue;
+  color: #666;
+  font-weight: bold;
   transition: transform .5s; }
 
 .port-item {

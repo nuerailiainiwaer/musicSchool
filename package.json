@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nuerailiainiwaer/musicSchool#readme",
   "dependencies": {
+    "@glidejs/glide": "^3.4.1",
     "node-sass": "^4.14.1"
   }
 }
