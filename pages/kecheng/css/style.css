@@ -1,34 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
 .navbar .nav-item:hover #nameme {
-  color: #FF4081;
-  transform: scale(1.05); }
+    color: #FF4081;
+    transform: scale(1.05);
+}
 
 .navbar .nav-link {
-  font-size: 1.2rem;
-  margin: .2rem; }
+    font-size: 1.2rem;
+    margin: .2rem;
+}
 
 .navbar #nameme {
-  color: #666;
-  font-weight: bold;
-  transition: transform .5s; }
+    color: #666;
+    font-weight: bold;
+    transition: transform .5s;
+}
 
 .title {
-  font-size: 38px;
-  line-height: 48px;
-  color: #666;
-  text-align: center;
-  padding: 0 0 20px 0;
-  font-weight: bold; }
+    font-size: 38px;
+    line-height: 48px;
+    color: #666;
+    text-align: center;
+    padding: 0 0 20px 0;
+    font-weight: bold;
+}
 
 .tabHead {
-  background-color: red;
-  color: white;
-  border-right: 1px solid #fff;
-  text-align: center; }
+    background-color: red;
+    color: white;
+    border-right: 1px solid #fff;
+    text-align: center;
+}
 
 tr td {
-  text-align: center; }
+    text-align: center;
+}
 
 .hidden {
-  font-size: 14px;
-  color: #959595;
-  padding-bottom: 30px; }
+    font-size: 14px;
+    color: #959595;
+    padding-bottom: 30px;
+}
+
+.innerMw {
+    position: relative;
+}
+
+.outerMe {
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ganzi {
+    background: rgba(55, 34, 211, 1);
+    border-style: none;
+    border-radius: 160px;
+    width: 250px;
+    height: 6px;
+}
+
+.pick {
+    /* The image used */
+    background-image: url("../img/Chinese-Guqin-Fuxi-ZhongNi-HunDun-Style-Lyre-7-Strings-Ancient-Zither-Chinese-Musical-Instruments-Zither-Guqin.webp");
+    /* Full height */
+    height: 100%;
+    ;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wudao1 {
+    /* The image used */
+    background-image: url("../img/wudao.jpg");
+    /* Full height */
+    height: 100%;
+    ;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wudao2 {
+    /* The image used */
+    background-image: url("../img/wudao1.jpg");
+    /* Full height */
+    height: 100%;
+    ;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wudao3 {
+    /* The image used */
+    background-image: url("../img/wudao2.jpg");
+    /* Full height */
+    height: 100%;
+    ;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wudao4 {
+    /* The image used */
+    background-image: url("../img/wudao4.jpg");
+    /* Full height */
+    height: 100%;
+    ;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 1000px) {
+    .extraInfo {
+        display: none !important;
+    }
+}

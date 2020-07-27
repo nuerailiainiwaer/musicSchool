@@ -1,21 +1,18 @@
-.navbar{
-
-    .nav-item{
-        &:hover #nameme{
-			color:#FF4081; ;
+.navbar {
+    .nav-item {
+        &:hover #nameme {
+            color: #FF4081;
+            ;
             transform: scale(1.05);
-            
         }
-     }
-
-    .nav-link{
+    }
+    .nav-link {
         font-size: 1.2rem;
         margin: .2rem;
-        
     }
-    #nameme{
-		color: #666;
-		font-weight: bold;
+    #nameme {
+        color: #666;
+        font-weight: bold;
         transition: transform .5s;
     }
 }

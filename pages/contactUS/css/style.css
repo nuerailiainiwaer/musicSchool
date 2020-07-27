@@ -1,12 +1,21 @@
 .navbar .nav-item:hover #nameme {
-  color: #FF4081;
-  transform: scale(1.05); }
+    color: #FF4081;
+    transform: scale(1.05);
+}
 
 .navbar .nav-link {
-  font-size: 1.2rem;
-  margin: .2rem; }
+    font-size: 1.2rem;
+    margin: .2rem;
+}
 
 .navbar #nameme {
-  color: #666;
-  font-weight: bold;
-  transition: transform .5s; }
+    color: #666;
+    font-weight: bold;
+    transition: transform .5s;
+}
+
+@media (max-width: 1000px) {
+    .extraInfo {
+        display: none !important;
+    }
+}

@@ -1,35 +1,69 @@
-body {
-  box-sizing: border-box; }
-
-.navbar .nav-item:hover #nameme {
-  color: #FF4081;
-  transform: scale(1.05); }
-
-.navbar .nav-link {
-  font-size: 1.2rem;
-  margin: .2rem; }
-
-.navbar #nameme {
-  color: #666;
-  font-weight: bold;
-  transition: transform .5s; }
-
-.port-item {
-  border-bottom: 1px solid #999999;
-  font-family: tahoma, arial, "Microsoft YaHei", "Hiragino Sans GB", u5b8bu4f53, sans-serif; }
-
-.showpage {
-  height: 800px;
-  width: 100%; }
-
-#renBtn {
-  background-color: #007BFF; }
-  #renBtn #textA {
-    color: white; }
-
-.fontsieze {
-  font-family: 'Noto Sans SC', sans-serif; }
-
-.xuexiaojieshao {
-  color: #666;
-  line-height: 2; }
+        * {
+            overflow-x: hidden !important;
+        }
+        
+        body {
+            box-sizing: border-box;
+        }
+        
+        .navbar .nav-item:hover #nameme {
+            color: #ff4081;
+            transform: scale(1.05);
+        }
+        
+        .navbar .nav-link {
+            font-size: 1.2rem;
+            margin: 0.2rem;
+        }
+        
+        .navbar #nameme {
+            color: #666;
+            font-weight: bold;
+            transition: transform 0.5s;
+        }
+        
+        .port-item {
+            border-bottom: 1px solid #999999;
+            font-family: tahoma, arial, "Microsoft YaHei", "Hiragino Sans GB", u5b8bu4f53, sans-serif;
+        }
+        
+        .showpage {
+            height: 800px;
+            width: 100%;
+        }
+        
+        .bgb {
+            background-color: #007bff;
+            color: white !important;
+        }
+        
+        #renBtn #textA {}
+        
+        .fontsieze {
+            font-family: "Noto Sans SC", sans-serif;
+        }
+        
+        .xuexiaojieshao {
+            color: #666;
+            line-height: 2;
+        }
+        
+        @media (max-width: 1000px) {
+            .biaoti {
+                display: none;
+            }
+            .showMe {
+                display: block !important;
+            }
+            .showpage {
+                height: 400px;
+                width: 100%;
+            }
+            .extraInfo {
+                display: none !important;
+            }
+        }
+        
+        .topic {
+            text-align: center;
+        }
